@@ -1,8 +1,13 @@
 aid: mycrypto
 name: MyCrypto
-description: 'MyCrypto is a company surfaced as a portfolio company of polychain and added to the API
-  Evangelist network as a stub for enrichment. Sector: wallet. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'MyCrypto is a free, open-source, client-side interface for managing Ethereum
+  accounts and interacting with the Ethereum blockchain. Founded in 2015, it is a non-custodial
+  wallet — private keys never leave the user''s device — supporting hardware wallets, Web3
+  and browser wallets, and offline transaction signing. In February 2022 MyCrypto was
+  acquired by ConsenSys to consolidate with MetaMask and unify the Web3 wallet experience.
+  MyCrypto ships no public REST API; its developer surface is the open-source application
+  codebase and the JavaScript/TypeScript libraries (eth-scan, ethereum-blockies-base64,
+  asset mappings) published under the MyCryptoHQ GitHub organization.'
 url: https://raw.githubusercontent.com/api-evangelist/mycrypto/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,30 @@ x-backed-by:
 - polychain
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Wallet
+- Ethereum
+- Blockchain
+- Cryptocurrency
+- Web3
+- Open Source
+- Non-Custodial
+image: https://raw.githubusercontent.com/MyCryptoHQ/MyCrypto/master/src/assets/images/logo-mycrypto.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mycrypto-domain-security.yml
 - type: Website
   url: https://mycrypto.com
+- type: GitHubOrganization
+  url: https://github.com/MyCryptoHQ
+- type: SourceCode
+  url: https://github.com/MyCryptoHQ/MyCrypto
+- type: Documentation
+  url: https://support.mycrypto.com/developers
+- type: Support
+  url: https://support.mycrypto.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
