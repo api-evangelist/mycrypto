@@ -48,7 +48,7 @@ tags:
 - Blockchain
 - Cryptocurrency
 - Web3
-- Open-Source
+- Open Source
 - Non-Custodial
 tags_raw:
 - Company
@@ -59,6 +59,7 @@ tags_raw:
 - Web3
 - Open Source
 - Non-Custodial
+- Open-Source
 image: https://raw.githubusercontent.com/MyCryptoHQ/MyCrypto/master/src/assets/images/logo-mycrypto.png
 apis: []
 maintainers:
