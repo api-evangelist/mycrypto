@@ -64,6 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-MyCrypto is a company surfaced as a portfolio company of polychain and added to the API Evangelist network as a stub for enrichment. Sector: wallet. This profile is a lead awaiting the enrichment pipeline.
+MyCrypto is a free, open-source, client-side interface for managing Ethereum accounts and interacting with the Ethereum blockchain. Founded in 2015, it is a non-custodial wallet — private keys never leave the user's device — supporting hardware wallets, Web3 and browser wallets, and offline transaction signing. In February 2022 MyCrypto was acquired by ConsenSys to consolidate with MetaMask and unify the Web3 wallet experience. MyCrypto ships no public REST API; its developer surface is the open-source application codebase and the JavaScript/TypeScript libraries (eth-scan, ethereum-blockies-base64, asset mappings) published under the MyCryptoHQ GitHub organization.
 
-Backed by: polychain — https://mycrypto.com
+**Areas:** Company · Wallets · Ethereum · Blockchain · Cryptocurrency · Web3 · Open Source · Non-Custodial
+
+## MyCrypto on APIs.io
+
+Everything profiled for MyCrypto is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mycrypto/](https://apis.io/providers/mycrypto/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Mycrypto Domain Security](https://apis.io/security/mycrypto/mycrypto-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mycrypto.com)
+- [Documentation](https://support.mycrypto.com/developers)
+- [Support](https://support.mycrypto.com)
+- [GitHub](https://github.com/MyCryptoHQ)
+
+## API Evangelist rating
+
+**Kin Score 16.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.4** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mycrypto/](https://apis.io/providers/mycrypto/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MyCrypto: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mycrypto/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
